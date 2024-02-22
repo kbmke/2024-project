@@ -107,3 +107,26 @@ meter {
 :where(dialog:modal) {
   all: revert;
 }
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.month {
+  border-radius: 0.5rem;
+  border: 2px dotted black;
+  padding: 2rem;
+  text-align: center;
+  width: 8rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "title title title title title title" "jan feb mar april may" "june july aug sept oct nov dec";
+}
+
+.jan {
+  grid-area: "jan";
+}
